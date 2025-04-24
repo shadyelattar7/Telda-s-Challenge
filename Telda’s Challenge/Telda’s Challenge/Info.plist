@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ConfigurationKeys</key>
+    <dict>
+        <key>API_BASE_URL</key>
+        <string>api.themoviedb.org</string>
+        <key>API_IMAGES_BASE_URL</key>
+        <string>image.tmdb.org/t/p/</string>
+        <key>API_KEY</key>
+        <string>8b36bb045c454c225dde292662d9757c</string>
+        <key>API_VERSION</key>
+        <string>3</string>
+        <key>Configuration</key>
+        <string>$(CONFIGURATION)</string>
+    </dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

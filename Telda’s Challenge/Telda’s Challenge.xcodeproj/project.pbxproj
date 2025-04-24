@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ABFD0CB2DBA38C800376259 /* AppEnvironment in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0CA2DBA38C800376259 /* AppEnvironment */; };
+		8ABFD0CD2DBA38C800376259 /* CoreNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0CC2DBA38C800376259 /* CoreNetwork */; };
+		8ABFD0CF2DBA38C800376259 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0CE2DBA38C800376259 /* Data */; };
+		8ABFD0D12DBA38C800376259 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0D02DBA38C800376259 /* Domain */; };
+		8ABFD0D32DBA38C800376259 /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0D22DBA38C800376259 /* Extensions */; };
+		8ABFD0D52DBA38C800376259 /* ImageCache in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0D42DBA38C800376259 /* ImageCache */; };
+		8ABFD0D72DBA38C800376259 /* MoviesAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0D62DBA38C800376259 /* MoviesAPI */; };
+		8ABFD0D92DBA38C800376259 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = 8ABFD0D82DBA38C800376259 /* Presentation */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ABFCFF82DBA0EEF00376259 /* Telda’s Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telda’s Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8ABFD00A2DBA0EF200376259 /* Exceptions for "Telda’s Challenge" folder in "Telda’s Challenge" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8ABFCFF72DBA0EEF00376259 /* Telda’s Challenge */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8ABFCFFA2DBA0EEF00376259 /* Telda’s Challenge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8ABFD00A2DBA0EF200376259 /* Exceptions for "Telda’s Challenge" folder in "Telda’s Challenge" target */,
+			);
+			path = "Telda’s Challenge";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ABFCFF52DBA0EEF00376259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABFD0D92DBA38C800376259 /* Presentation in Frameworks */,
+				8ABFD0D32DBA38C800376259 /* Extensions in Frameworks */,
+				8ABFD0D52DBA38C800376259 /* ImageCache in Frameworks */,
+				8ABFD0CD2DBA38C800376259 /* CoreNetwork in Frameworks */,
+				8ABFD0CB2DBA38C800376259 /* AppEnvironment in Frameworks */,
+				8ABFD0D72DBA38C800376259 /* MoviesAPI in Frameworks */,
+				8ABFD0D12DBA38C800376259 /* Domain in Frameworks */,
+				8ABFD0CF2DBA38C800376259 /* Data in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ABFCFEF2DBA0EEF00376259 = {
+			isa = PBXGroup;
+			children = (
+				8ABFCFFA2DBA0EEF00376259 /* Telda’s Challenge */,
+				8ABFD0C92DBA38C800376259 /* Frameworks */,
+				8ABFCFF92DBA0EEF00376259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ABFCFF92DBA0EEF00376259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ABFCFF82DBA0EEF00376259 /* Telda’s Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ABFD0C92DBA38C800376259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ABFCFF72DBA0EEF00376259 /* Telda’s Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABFD00B2DBA0EF200376259 /* Build configuration list for PBXNativeTarget "Telda’s Challenge" */;
+			buildPhases = (
+				8ABFCFF42DBA0EEF00376259 /* Sources */,
+				8ABFCFF52DBA0EEF00376259 /* Frameworks */,
+				8ABFCFF62DBA0EEF00376259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8ABFCFFA2DBA0EEF00376259 /* Telda’s Challenge */,
+			);
+			name = "Telda’s Challenge";
+			packageProductDependencies = (
+				8ABFD0CA2DBA38C800376259 /* AppEnvironment */,
+				8ABFD0CC2DBA38C800376259 /* CoreNetwork */,
+				8ABFD0CE2DBA38C800376259 /* Data */,
+				8ABFD0D02DBA38C800376259 /* Domain */,
+				8ABFD0D22DBA38C800376259 /* Extensions */,
+				8ABFD0D42DBA38C800376259 /* ImageCache */,
+				8ABFD0D62DBA38C800376259 /* MoviesAPI */,
+				8ABFD0D82DBA38C800376259 /* Presentation */,
+			);
+			productName = "Telda’s Challenge";
+			productReference = 8ABFCFF82DBA0EEF00376259 /* Telda’s Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ABFCFF02DBA0EEF00376259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8ABFCFF72DBA0EEF00376259 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 8ABFCFF32DBA0EEF00376259 /* Build configuration list for PBXProject "Telda’s Challenge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ABFCFEF2DBA0EEF00376259;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8ABFCFF92DBA0EEF00376259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ABFCFF72DBA0EEF00376259 /* Telda’s Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ABFCFF62DBA0EEF00376259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ABFCFF42DBA0EEF00376259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8ABFD00C2DBA0EF200376259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFEW75B8LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Telda’s Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Al-attar.Telda-s-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ABFD00D2DBA0EF200376259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFEW75B8LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Telda’s Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Al-attar.Telda-s-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8ABFD00E2DBA0EF200376259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ABFD00F2DBA0EF200376259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ABFCFF32DBA0EEF00376259 /* Build configuration list for PBXProject "Telda’s Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABFD00E2DBA0EF200376259 /* Debug */,
+				8ABFD00F2DBA0EF200376259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABFD00B2DBA0EF200376259 /* Build configuration list for PBXNativeTarget "Telda’s Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABFD00C2DBA0EF200376259 /* Debug */,
+				8ABFD00D2DBA0EF200376259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8ABFD0CA2DBA38C800376259 /* AppEnvironment */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppEnvironment;
+		};
+		8ABFD0CC2DBA38C800376259 /* CoreNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreNetwork;
+		};
+		8ABFD0CE2DBA38C800376259 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		8ABFD0D02DBA38C800376259 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		8ABFD0D22DBA38C800376259 /* Extensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extensions;
+		};
+		8ABFD0D42DBA38C800376259 /* ImageCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageCache;
+		};
+		8ABFD0D62DBA38C800376259 /* MoviesAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MoviesAPI;
+		};
+		8ABFD0D82DBA38C800376259 /* Presentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Presentation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8ABFCFF02DBA0EEF00376259 /* Project object */;
+}
